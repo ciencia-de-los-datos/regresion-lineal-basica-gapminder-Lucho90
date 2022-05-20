@@ -82,6 +82,9 @@ def pregunta_03():
     # Asigne a la variable los valores de la columna `life`
     y_life = df['life'].values
 
+    X_fertility= np.reshape(X_fertility,(-1, 1))
+    y_life= np.reshape(y_life,(-1, 1))
+
     # Importe LinearRegression
     from sklearn.linear_model import LinearRegression
 
