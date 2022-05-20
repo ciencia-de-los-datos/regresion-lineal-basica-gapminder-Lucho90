@@ -4,9 +4,6 @@ Calificación del laboratorio
 """
 
 import sys
-import numpy as np
-import pandas as pd
-import soluciones
 
 import preguntas
 preguntas = soluciones
